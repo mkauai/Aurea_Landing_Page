@@ -1,2 +1,2 @@
 # Aurea_Landing_Page
-Landing page for urls I own that promote Charity
+Promoting charities I support on various urls I own

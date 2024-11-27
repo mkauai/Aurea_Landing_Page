@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aurea Media Group - Landing page supporting charities.">
+    <title>Aurea Media Group</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            position: relative;
+        }
+
+        /* Background Logo */
+        .background-logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.1;
+            z-index: -1;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        /* Content Box */
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(255, 255, 255, 0.95);
+            max-width: 800px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #d4af37;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 15px 0;
+        }
+
+        /* Charity Section */
+        .charity {
+            margin: 20px 0;
+        }
+
+        .charity h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .charity p {
+            font-size: 1em;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            background: #d4af37;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #c0902d;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1em;
+            color: #666;
+        }
+
+        /* Logo Bug in Bottom-Right Corner */
+        .logo-bug {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            text-align: center;
+        }
+
+        .logo-bug img {
+            width: 80px;
+            opacity: 0.9;
+        }
+
+        .logo-bug p {
+            margin: 5px 0 0 0;
+            font-size: 0.9em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Logo -->
+    <img src="logo.png" alt="Aurea Media Group Logo" class="background-logo">
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>E Komo Mai</h1>
+        <p>Site TBD</p>
+        <p>Til then, here are some charities I support:</p>
+
+        <!-- Charity 1 -->
+        <div class="charity">
+            <h3>Love Wins Now</h3>
+            <p>Dedicated to helping children.</p>
+            <a href="https://www.lovewinsnow.org/" target="_blank" class="button">Learn More</a>
+        </div>
+
+        <!-- Charity 2 -->
+        <div class="charity">
+            <h3>World Bicycle Relief</h3>
+            <p>Empowering individuals and communities in developing regions through the gift of mobility.</p>
+            <a href="https://worldbicyclerelief.org/" target="_blank" class="button">Learn More</a>
+        </div>
+
+        <!-- Charity 3 -->
+        <div class="charity">
+            <h3>Liberty Memes Foundation</h3>
+            <p>Supporting individuals and families in need with a focus on charity, community, and liberty.</p>
+            <a href="https://libertymemesfoundation.org/" target="_blank" class="button">Learn More</a>
+        </div>
+
+        <p>Mahalo no kou kipa ʻana</p>
+    </div>
+
+    <!-- Logo Bug -->
+    <div class="logo-bug">
+        <img src="logo.png" alt="Aurea Media Group Logo">
+        <p>Aurea Media Group</p>
+    </div>
+</body>
+</html>
